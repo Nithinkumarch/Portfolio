@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nithin Kumar Chinthakindi - Data Analyst</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+      line-height: 1.6;
+    }
+    /* Header */
+    .header {
+      background-color: #ff6347;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+      border-bottom: 5px solid #333;
+    }
+    .header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #fff;
+      margin-bottom: 20px;
+    }
+    .header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    .header p {
+      font-size: 1.25rem;
+      font-weight: 300;
+    }
+    /* Navigation */
+    .navbar {
+      background-color: #333;
+      padding: 15px 0;
+      text-align: center;
+    }
+    .navbar ul {
+      list-style: none;
+      display: inline-flex;
+    }
+    .navbar ul li {
+      margin: 0 20px;
+    }
+    .navbar ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 1.2rem;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    .navbar ul li a:hover {
+      color: #ff6347;
+    }
+    /* Section Styles */
+    .section {
+      padding: 60px 20px;
+      margin: 40px 0;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .section h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 30px;
+      color: #333;
+    }
+    /* Cards */
+    .card {
+      background-color: #f4f4f4;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .card h3 {
+      font-size: 1.75rem;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    .card p {
+      color: #555;
+      font-size: 1.1rem;
+    }
+    /* Skills Grid */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+      text-align: center;
+      margin-top: 30px;
+    }
+    .skills-grid .skill {
+      background-color: #ff6347;
+      padding: 20px;
+      color: white;
+      font-weight: 600;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+    .skills-grid .skill:hover {
+      transform: scale(1.1);
+    }
+    /* Projects Grid */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
+    }
+    .project-card {
+      background-color: #f4f4f4;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    .project-card:hover {
+      transform: scale(1.05);
+    }
+    .project-card h3 {
+      font-size: 1.5rem;
+      color: #333;
+      margin-bottom: 15px;
+    }
+    .project-card p {
+      font-size: 1.1rem;
+      color: #555;
+    }
+    /* Footer */
+    .footer {
+      background-color: #333;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <img src="Chinthakindi Nithin Kumar.jpg" alt="Nithin Kumar Chinthakindi">
+      <h1>Nithin Kumar Chinthakindi</h1>
+      <p>Master's Student in Business Analytics | Data Analyst Enthusiast</p>
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="section" id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am a Master’s student in Business Analytics at Kent State University. My expertise lies in data analysis, visualization, and actionable business insights. I am passionate about leveraging data-driven strategies to solve complex problems and help organizations grow.</p>
+    </div>
+  </section>
+
+  <section class="section" id="education">
+    <div class="container">
+      <h2>Education</h2>
+      <div class="card">
+        <h3>Kent State University</h3>
+        <p><strong>Master’s in Business Analytics</strong> (Expected May 2025) - GPA: 3.34</p>
+      </div>
+      <div class="card">
+        <h3>Osmania University</h3>
+        <p><strong>Bachelor of Commerce in Computer Applications</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <div class="container">
+      <h2>Experience</h2>
+      <div class="card">
+        <h3>Accenture</h3>
+        <p><strong>Application Development Associate</strong> (Mar 2022 – Apr 2023)</p>
+        <ul>
+          <li>Supported application releases with effective deployment planning and scheduling.</li>
+          <li>Resolved defects and performance issues, consistently meeting Service Level Agreements (SLAs).</li>
+          <li>Managed IT infrastructure to ensure reliability and security in line with service agreements.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Bitla & Associates Chartered Accountants</h3>
+        <p><strong>Data Associate</strong> (Aug 2021 - Feb 2022)</p>
+        <ul>
+          <li>Managed and processed financial data for tax filings, ensuring accuracy and regulatory compliance.</li>
+          <li>Analyzed data to identify trends and anomalies, optimizing tax management processes.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">Excel</div>
+        <div class="skill">R</div>
+        <div class="skill">Python</div>
+        <div class="skill">SQL</div>
+        <div class="skill">Tableau</div>
+        <div class="skill">Power BI</div>
+        <div class="skill">PowerApps</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Accenture North America Data Analytics and Visualization Job Simulation</h3>
+          <p>Analyzed and cleaned 7 datasets, uncovering actionable insights into content trends and audience engagement patterns.</p>
+        </div>
+        <div class="project-card">
+          <h3>PwC Switzerland Power BI Job Simulation</h3>
+          <p>Developed interactive Power BI dashboards visualizing HR data, focusing on gender balance issues.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <input name="name" placeholder="Your Name" required="" type="text" /> 
+        <input name="email" placeholder="Your Email" required="" type="email" />
+        <textarea name="message" placeholder="Your Message" required="" rows="5"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2024 Nithin Kumar Chinthakindi</p>
+    </div>
+  </footer>
+  
+</body>
+</html>
